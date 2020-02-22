@@ -1,0 +1,40 @@
+.myClass{
+    position: absolute;
+}
+
+.intro-text {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.intro{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+body{
+    margin: auto 20px;
+    background-color: #d2b48c;
+}
+
+img{
+   width: 97%;   
+}
+
+@media screen and (min-width: 713px){
+    body{
+    background-color: #708238;
+    font-size: 16px;
+    margin: auto 20px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    img{
+        width: 100%;
+    }
+}
